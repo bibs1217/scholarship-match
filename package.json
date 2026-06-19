@@ -33,4 +33,6 @@
     "tailwindcss": "^3",
     "tsx": "^4.19.3",
     "typescript": "^5",
-    "vitest": "
+    "vitest": "^3.2.4"
+  }
+}
