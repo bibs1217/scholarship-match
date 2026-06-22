@@ -7,6 +7,7 @@ export default function HomePage() {
       <nav className="border-b px-6 py-4 flex items-center justify-between">
         <span className="text-xl font-bold text-blue-900">ScholarMatch AI</span>
         <div className="flex gap-4 items-center">
+          <Link href="/demo" className="text-gray-600 hover:text-gray-900">Demo</Link>
           <Link href="/pricing" className="text-gray-600 hover:text-gray-900">Pricing</Link>
           <Link href="/auth/login" className="text-gray-600 hover:text-gray-900">Sign in</Link>
           <Link href="/auth/signup" className="bg-blue-900 text-white px-4 py-2 rounded-lg hover:bg-blue-800">
@@ -24,9 +25,12 @@ export default function HomePage() {
           Connect students to every scholarship they qualify for — federal, state, and institutional —
           with AI-powered evaluation and human staff approval before letters are sent.
         </p>
-        <div className="flex gap-4 justify-center">
+        <div className="flex gap-4 justify-center flex-wrap">
           <Link href="/auth/signup" className="bg-blue-900 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-800">
             Start free trial
+          </Link>
+          <Link href="/demo" className="bg-white border-2 border-blue-900 text-blue-900 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-50">
+            ▶ Watch demo
           </Link>
           <Link href="/pricing" className="border border-gray-300 text-gray-700 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-gray-50">
             View pricing
