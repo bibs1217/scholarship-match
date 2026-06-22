@@ -463,7 +463,7 @@ export default function DemoPage() {
     ai:      { title: 'AI evaluates 19 scholarships instantly', subtitle: 'Claude reviews every criterion — GPA, income, residency, first-gen status, FAFSA — and surfaces every match with a confidence score and plain-language reason.' },
     review:  { title: 'UF staff reviews and approves', subtitle: 'Financial aid advisors see AI-suggested matches with reasoning. They approve, reject, or flag with one click.' },
     letter:  { title: 'Eligibility letter generated', subtitle: 'A professional letter is drafted automatically and queued for staff final approval before it reaches Jordan.' },
-    matches: { title: 'Jordan sees her results', subtitle: 'One simple dashboard shows every scholarship she's been approved for and the exact amount.' },
+    matches: { title: 'Jordan sees her results', subtitle: "One simple dashboard shows every scholarship she's been approved for and the exact amount." },
     parent:  { title: 'Sandra gets notified', subtitle: 'Parents receive a summary email the moment letters are approved — no login required.' },
   }
 
